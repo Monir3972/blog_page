@@ -1,0 +1,105 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+   font-family: 'Lora', serif;
+}
+a:hover { text-decoration: none }
+.section-padding{
+    padding: 80px 0;
+}
+.form-wrap img{
+    display: block;
+    margin: 0 auto;
+}
+
+.blue-quote-form {
+    
+    background-color: #19B5FE;
+    margin-top: 0pt;
+    max-width: 770px;
+    padding-left: 100px;
+    padding: 50;
+    padding-right: 100px;
+    padding-bottom: 31px;
+
+}
+.blue-quote-form h3 {
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 18px 0px;
+    position: relative;
+}
+.blue-quote-form h3::before {
+    bottom: 0;
+    height: 1px;
+    left: 50%;
+    position: absolute;
+    width: 130px;
+    content: "";
+    background: #fff;
+    margin-left: -65px;
+}
+.blue-quote-form h3::after {
+    
+    height: 13px;
+    left: 50%;
+    position: absolute;
+    width: 13px;
+    content: "";
+    border:2px solid #fff;
+    bottom:-6.5px;
+    margin-left: -6.5px;
+    border-radius: 50%;
+}
+.blue-quote-form input, .blue-quote-form textarea {
+    border: none;
+    background: none;
+}
+.blue-quote-form input, .blue-quote-form textarea {
+    border-bottom:1px solid #F9FCFF;
+    color: #fff;
+    padding: 10px 0;
+    width: 100%;
+}
+.blue-quote-form textarea {
+    height: 100px;
+    width: 100%;
+}
+.blue-form-submit {
+    text-align: center;
+    margin-top: 23px;
+}
+.blue-form-submit button[type="submit"] {
+    background-color: #fff;
+    text-transform: uppercase;
+    color: #25B7FE;
+    border-radius: 4px;
+    padding: 10px 17px;
+    border: none;
+}
